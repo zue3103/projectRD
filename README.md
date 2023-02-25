@@ -9,3 +9,6 @@ The ANBERG dataset will be updated in March 2023. I will be one of the first res
 with economic growth and my goal is to conclude the project by the end of the semester. My analysis can be applied to many different areas.
 With a projected recession in many countries around the world in 2023 understanding historical R&D expenditure data and its impact on economic growth 
 will influence company’s and government investment decisions. 
+
+![image](https://user-images.githubusercontent.com/82049693/221381692-b0d1e423-bf6a-4ac9-898e-4320c5762bac.png)
+
