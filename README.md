@@ -1,4 +1,6 @@
-This project studies research and development (R&D) expenditure trends and the relationship between R&D expenditure and economic growth (GDP) since 2012 using the ANBERD dataset and World Bank data. The programming language used is Python. 
+This project is ongoing and studies research and development (R&D) expenditure trends and the relationship between R&D expenditure and economic growth (GDP) since 2012 using the ANBERD dataset and World Bank data. The programming language used is Python. 
+
+Trends
 
 ![image](https://user-images.githubusercontent.com/82049693/221428409-e4bb839e-7f5b-4b6e-86ac-44a37efaed5d.png)
 
@@ -27,5 +29,12 @@ US
 ![image](https://user-images.githubusercontent.com/82049693/221430385-fa74519c-40f6-4c55-bda9-579901e9cfa2.png)
 
 US, Germany, and China show a linear growth trend both of GDP and R&D expenditure for the observed years. Japan shows a higher variability of growth for both variables.
+
+Relationship
+
+Normalization, linear regression, Pearson, Kendall, Spearman were used as correlation methods to determine the relationship between R&D expenditure and GDP. 
+All four countries showed a positive linear relationship between the two variables. Validation efforts remain ongoing.
+
+Additional efforts will possibly include a wider analysis of historical data, a comparison between more countries, prediction methods, and the implementation of ML techniques.  
 
 
