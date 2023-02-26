@@ -32,9 +32,30 @@ US, Germany, and China show a linear growth trend both of GDP and R&D expenditur
 
 Relationship
 
-Normalization, linear regression, Pearson, Kendall, Spearman were used as correlation methods to determine the relationship between R&D expenditure and GDP. 
+Normalization, linear regression, Pearson, Kendall, Spearman were used as correlation methods to determine the relationship between R&D expenditure and GDP.
+
+Germany
+
+![image](https://user-images.githubusercontent.com/82049693/221431628-acb0a7cb-508b-4841-8f60-ad82cf57815c.png)
+
+US
+
+![image](https://user-images.githubusercontent.com/82049693/221431663-8fddceeb-fcd0-477c-a31a-168d00568d2f.png)
+
+China
+
+![image](https://user-images.githubusercontent.com/82049693/221431699-19dde2fa-b5d6-4375-9e68-1a58fa7bc08c.png)
+
+Japan
+
+![image](https://user-images.githubusercontent.com/82049693/221431720-863ae3e9-ca5a-4ecb-9da4-bc8a5214f912.png)
+
+
+
 All four countries showed a positive linear relationship between the two variables. Validation efforts remain ongoing.
 
-Additional efforts will possibly include a wider analysis of historical data, a comparison between more countries, prediction methods, and the implementation of ML techniques.  
+A similar analysis was conducted for Italy, France, Korea, and the United Kingdom. The trend analysis showed greater variability for R&D expenditure and GDP and only Korea indicated a strong linear relationship between the variables.
+
+Additional efforts will possibly include a wider analysis of historical data, prediction methods, and the implementation of ML techniques.  
 
 
