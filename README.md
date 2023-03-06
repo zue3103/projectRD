@@ -4,6 +4,9 @@ Data and Analysis
 
 The project uses the Organisation for Economic Co-operation and Development's (OECD) ANBERD (Analytical Business Enterprise R&D) database and the OECD's datasbase on Patents by World Intellectual Property Organization (WIPO) technology field. The ANBERD database presents annual data on R&D expenditures across 100 industries for OECD countries’ and selected non-members from 1987 to 2019 retrieved from OECD/Eurostat R&D data collection. The patent database comprises of annual data on patent applications and grants from the European Patent Office (EPO), US Patent and Trademark Office (USPTO), and other country-specific patent offices. The databases were filtered for specific years and countries and expenditure data for US dollars at purchasing power parity (PPP) at a current price. Exploratory analysis identified Japan as the country with the overall highest amount of total patents and Italy with the lowest. China had the highest variability of total patents and a close to exponential growth of patents in a twenty year span. Most patents are in the computer technology and electricity sector. Several countries show exponential growth of R&D expenditure with China and the US having the highest on average. 
 
+This is the link to the patent database:
+https://stats.oecd.org/Index.aspx?DataSetCode=ANBERD_REV4#
+
 This visualization shows the number of patents per country between 1999 and 2019.
 
 ![image](https://user-images.githubusercontent.com/82049693/223116436-ea3684d2-fa5c-416e-96c1-b99bfc549b0b.png)
