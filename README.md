@@ -1,61 +1,21 @@
-This project is ongoing and studies research and development (R&D) expenditure trends and the relationship between R&D expenditure and economic growth (GDP) since 2012 using the ANBERD dataset and World Bank data. The programming language used is Python. 
+This project is ongoing and studies research and development (R&D) expenditure trends and the relationship between R&D expenditure and patents between 1999 and 2019 for Germany. United States (US), China, Japan, United Kingdom (UK), Italy, Korea, and France. 
 
-Trends
+Data and Analysis
 
-![image](https://user-images.githubusercontent.com/82049693/221428409-e4bb839e-7f5b-4b6e-86ac-44a37efaed5d.png)
+The project uses the Organisation for Economic Co-operation and Development's (OECD) ANBERD (Analytical Business Enterprise R&D) database and the OECD's datasbase on Patents by World Intellectual Property Organization (WIPO) technology field. The ANBERD database presents annual data on R&D expenditures across 100 industries for OECD countries’ and selected non-members from 1987 to 2019 retrieved from OECD/Eurostat R&D data collection. The patent database comprises of annual data on patent applications and grants from the European Patent Office (EPO), US Patent and Trademark Office (USPTO), and other country-specific patent offices. The databases were filtered for specific years and countries and expenditure data for US dollars at purchasing power parity (PPP) at a current price. Exploratory analysis identified Japan as the country with the overall highest amount of total patents and Italy with the lowest. China had the highest variability of total patents and a close to exponential growth of patents in a twenty year span. Most patents are in the computer technology and electricity sector. Several countries show exponential growth of R&D expenditure with China and the US having the highest on average. 
 
-Germany, the United States (US), China and Japan were selected for further analysis as these countries had the overall highest R&D expenditure.
+This visualization shows the number of patents per country between 1999 and 2019.
 
-![image](https://user-images.githubusercontent.com/82049693/221381692-b0d1e423-bf6a-4ac9-898e-4320c5762bac.png)
+![image](https://user-images.githubusercontent.com/82049693/223116436-ea3684d2-fa5c-416e-96c1-b99bfc549b0b.png)
 
-Among the four countries, the US has the overall highest GDP followed closely by Germany. Japan had the lowest variability of GDP and China the greatest.
+Methods
 
-The following shows a time series for the four countries. R&D expediture (right) GDP (left)
+The project uses several statistical methods to study R&D expenditure and patent trends, including several correlation methods such as regression to assess the relationship between the two variables. The project calculates the differences between the annual values both for patents and R&D expenditure, which is then used for the regression analysis. The Augmented Dickey–Fuller test indicated that the data was not stationary. The regression analysis was run both without and with adjustement to make the data stationary. The latter improved the results of the analysis.  
 
-China
+Results 
 
-![image](https://user-images.githubusercontent.com/82049693/221430225-5df1489e-bf10-4fd2-9ae9-0f768d15788e.png)
-
-Germany
-
-![image](https://user-images.githubusercontent.com/82049693/221430345-a385bbe1-b7d1-42bf-b06a-7d2c777447c7.png)
-
-Japan
-
-![image](https://user-images.githubusercontent.com/82049693/221430376-99d292a5-27e3-4fb7-b201-347e9c3acd33.png)
-
-US
-
-![image](https://user-images.githubusercontent.com/82049693/221430385-fa74519c-40f6-4c55-bda9-579901e9cfa2.png)
-
-US, Germany, and China show a linear growth trend both of GDP and R&D expenditure for the observed years. Japan shows a higher variability of growth for both variables.
-
-Relationship
-
-Normalization, linear regression, Pearson, Kendall, Spearman were used as correlation methods to determine the relationship between R&D expenditure and GDP.
-
-Germany
-
-![image](https://user-images.githubusercontent.com/82049693/221431628-acb0a7cb-508b-4841-8f60-ad82cf57815c.png)
-
-US
-
-![image](https://user-images.githubusercontent.com/82049693/221431663-8fddceeb-fcd0-477c-a31a-168d00568d2f.png)
-
-China
-
-![image](https://user-images.githubusercontent.com/82049693/221431699-19dde2fa-b5d6-4375-9e68-1a58fa7bc08c.png)
-
-Japan
-
-![image](https://user-images.githubusercontent.com/82049693/221431720-863ae3e9-ca5a-4ecb-9da4-bc8a5214f912.png)
+Correlation methods indicate that in most countries there is no statistically significant relationship between R&D expenditure and patents. However, for China there appears to be a weak positive linear relationship. Analysis for the relationship per R&D expenditure industry and patent sector are ongoing.
 
 
-
-All four countries showed a positive linear relationship between the two variables. Validation efforts remain ongoing.
-
-A similar analysis was conducted for Italy, France, Korea, and the United Kingdom. The trend analysis showed greater variability for R&D expenditure and GDP and only Korea indicated a strong linear relationship between the variables.
-
-Additional efforts will possibly include a wider analysis of historical data, prediction methods, and the implementation of ML techniques.  
 
 
