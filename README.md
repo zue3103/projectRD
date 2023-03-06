@@ -10,11 +10,11 @@ This visualization shows the number of patents per country between 1999 and 2019
 
 Methods
 
-The project uses several statistical methods to study R&D expenditure and patent trends, including several correlation methods such as regression to assess the relationship between the two variables. The project calculates the differences between the annual values both for patents and R&D expenditure, which is then used for the regression analysis. The Augmented Dickey–Fuller test indicated that the data was not stationary. The regression analysis was run both without and with adjustement to make the data stationary. The latter improved the results of the analysis.  
+The project uses several statistical methods to study R&D expenditure and patent trends, including several correlation methods such as regression to assess the relationship between the two variables. The project calculates the differences between the annual values both for patents and R&D expenditure, which is then used for the regression analysis. The Augmented Dickey–Fuller test indicated that the data was not stationary. The regression analysis was run both without and with adjustement to make the data stationary. The latter improved the results of the analysis but the differencing did not improve the stationarity of all countries.  
 
 Results 
 
-Correlation methods indicate that in most countries there is no statistically significant relationship between R&D expenditure and patents. However, for China there appears to be a weak positive linear relationship. Analysis for the relationship per R&D expenditure industry and patent sector are ongoing.
+Correlation methods indicate that in most countries there is no statistically significant relationship between R&D expenditure and patents. However, for China there appears to be a weak positive linear relationship. Analysis for the relationship per R&D expenditure industry and patent sector are ongoing. 
 
 
 
